@@ -2,4 +2,4 @@
 .vercel
 
 # Ignore eviroment file configuration
-.env.env
+.env
