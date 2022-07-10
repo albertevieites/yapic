@@ -1,5 +1,6 @@
 # Ignore vercel folder configuration
 .vercel
+vercel.json
 
 # Ignore eviroment file configuration
 .env
