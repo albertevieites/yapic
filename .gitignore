@@ -3,3 +3,6 @@
 
 # Ignore eviroment file configuration
 .env
+
+# Dependencies
+node_modules/
