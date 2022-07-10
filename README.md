@@ -73,7 +73,7 @@ date: Date
 ## Links
 
 ### Deployment
-<a href="albertevieites-yapic.herokuapp.com/">
+<a href="https://albertevieites-yapic.herokuapp.com/">
   <img height="30" src="./public/images/heroku.svg"/>
 </a>
 
@@ -86,7 +86,7 @@ Alberte Vieites
   <img height="30" src="./public/images/linkedin.svg"/>
 </a>
 
-<a href="https://github.com/in/albertevieites/">
+<a href="https://github.com/albertevieites">
   <img height="30" src="./public/images/github.svg"/>
 </a>
 </div>
