@@ -92,9 +92,9 @@ nav {
   align-items: center;
   text-align: center;
   color: var(--ligth-pink);
-  border: 0.2rem solid var(--ligth-pink);
-  border-radius: 2rem;
-  padding: 1rem;
+  border: 0.2em solid var(--ligth-pink);
+  border-radius: 0.5em;
+  padding: 0.5em 1.5em;
 }
 
 .signup > * {
@@ -104,8 +104,9 @@ nav {
   text-align: center;
   background-color: var(--ligth-pink);
   color: var(--dark-blue);
-  border-radius: 2rem;
-  padding: 1rem;
+  border: 0.2em solid var(--ligth-pink);
+  border-radius: 0.5em;
+  padding: 0.5em 1.5em;
 }
 
 .post-button > * {
