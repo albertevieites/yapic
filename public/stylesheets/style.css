@@ -446,6 +446,15 @@ select:focus {
   align-items: center;
 }
 
+.profile__parent {
+  padding-bottom: 8em;
+}
+
+.profile__parent h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
 .profile__button {
   background-color: var(--ligth-pink);
 }
@@ -453,9 +462,6 @@ select:focus {
 #interests::-webkit-scrollbar {
   display: none;
 }
-
-
-
 /* END OF PROFILE.hbs                     */
 /* <----------------------------------> */
 
@@ -517,10 +523,6 @@ select:focus {
   align-items: center;
 }
 
-.text-cads {
-  margin-top: 15%;
-}
-
 .single-card form {
   margin-top: 7%;
 }
@@ -561,7 +563,7 @@ select:focus {
 
 .snaps-inline > * {
   scroll-snap-align: start;
-} 
+}
 
 .match-card {
   display: grid;
@@ -585,7 +587,6 @@ select:focus {
 
 .post-description {
   height: 5rem;
-  overflow: scroll;
 }
 
 /*DELETE BUTTON FOR POSTS */
