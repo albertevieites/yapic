@@ -446,7 +446,7 @@ select:focus {
   align-items: center;
 }
 
-.profileBtn {
+.profile__button {
   background-color: var(--ligth-pink);
 }
 
@@ -454,13 +454,7 @@ select:focus {
   display: none;
 }
 
-.profileSubBtn {
-  background-color: var(--dark-blue);
-}
 
-.submitProfile {
-  margin-bottom: 7rem;
-}
 
 /* END OF PROFILE.hbs                     */
 /* <----------------------------------> */
