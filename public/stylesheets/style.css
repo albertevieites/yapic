@@ -154,6 +154,8 @@ nav {
   justify-content: space-between;
 
   padding: 0 7em;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .index__text h1 {
@@ -173,10 +175,10 @@ nav {
   width: 40%;
   padding: 0.7em 1.5em;
   margin-top: 2em;
-  background-color: var(--ligth-pink);
+  background-color: var(--white);
   color: var(--dark-blue);
 
-  border: 0.2em solid var(--ligth-pink);
+  border: 0.2em solid var(--white);
   border-radius: 0.5em;
 
   text-align: center;
@@ -188,6 +190,14 @@ nav {
 
 .index__signup a:hover {
   color: var(--white);
+}
+
+.index__login {
+  display: none;
+}
+
+.index__illustration {
+  width: 100%;
 }
 
 /* END OF INDEX.hbs                     */
@@ -387,7 +397,7 @@ select:focus {
   background-color: var(--dark-blue);
 
   border-radius: 1em;
-  
+
   transition: 0.6s ease;
 }
 
@@ -578,18 +588,11 @@ footer {
 
   position: fixed;
 
-  height: 10rem;
   width: 100%;
-  padding: 0 6em;
+  padding: 2.5em 6em;
 
   left: 0;
   bottom: 0;
-  color: white;
-}
-
-footer p {
-  margin-bottom: 0;
-  color: var(--dark-blue);
 }
 
 .index__waves {
@@ -600,9 +603,17 @@ footer p {
   z-index: -1;
 }
 
-.index__waves img{
+.index__waves img {
   width: 100%;
+}
 
+.index__waves2 {
+  display: none;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: var(--dark-blue);
 }
 
 footer .fa-icons {
@@ -642,4 +653,226 @@ footer .fa-icons {
 
 .hr-post {
   border-top: 1px solid black;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  .index__container {
+    padding-top: 0;
+  }
+
+  .index__text {
+    max-width: 50%;
+  }
+
+  .footer {
+    margin: 0 auto;
+  }
+
+  .index__waves {
+    display: block;
+  }
+
+  .index__waves3 {
+    display: none;
+  }
+
+  .index__waves4 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .index__container {
+    padding-top: 2em;
+  }
+
+  .index__text {
+    max-width: 50%;
+  }
+
+  .index__text h1 {
+    width: 80%;
+    font-size: 4rem;
+  }
+
+  .index__text p {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .index__illustration {
+    width: 40vw;
+  }
+
+  .index__illustration img {
+    width: 50vw;
+  }
+
+  .index__waves {
+    display: block;
+  }
+
+  .index__waves3 {
+    display: none;
+  }
+
+  .index__waves4 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .index__container {
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 0 1em;
+  }
+
+  .index__text {
+    width: 75%;
+  }
+
+  .index__text h1 {
+    font-size: 3.5rem;
+  }
+
+  .index__text p {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+  .index__signup {
+    margin-top: 1em;
+    padding: 1em 4em;
+    width: 50%;
+  }
+
+  .index__illustration {
+    width: 45vw;
+  }
+
+  .index__illustration img {
+    width: 100%;
+  }
+
+  .index__waves {
+    display: none;
+  }
+
+  .index__waves4 {
+    display: none;
+  }
+
+  .index__waves3 {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .index__waves3 img {
+    width: 100%;
+  }
+
+  .nav-bar {
+    margin: 1em 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .yapic__logo {
+    padding-top: 3em;
+  }
+
+  .index__container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4em 0;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .index__login {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    background-color: var(--dark-blue);
+
+    border: 0.2em solid var(--ligth-pink);
+    border-radius: 0.5em;
+    padding: 0.5em 1.5em;
+  }
+
+  .index__login a {
+    color: var(--ligth-pink);
+  }
+  
+  .index__login a:hover {
+    color: var(--white);
+  }
+
+  .index__signup {
+    width: 100%;
+    margin-top: 0;
+    background-color: var(--ligth-pink);
+    border: 0.2em solid var(--ligth-pink);
+  }
+
+  .index__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .index__text {
+    width: 80%;
+  }
+
+  .index__text h1 {
+    display: none;
+  }
+
+  .index__text p {
+    display: none;
+  }
+
+  .index__illustration {
+    width: 75vw;
+    padding-bottom: 2em;
+  }
+
+  .index__illustration img {
+    width: 100%;
+  }
+
+  .index__waves {
+    display: none;
+  }
+
+  .index__waves3 {
+    display: none;
+  }
+
+  .index__waves4 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  footer {
+    padding: 2.5em 2em;
+  }
 }

@@ -19,7 +19,11 @@
   <nav class="nav-bar">
     {{#if user}}
     <div class="logo-home">
-      <a href="/home/{{user._id}}"><img class="yapic-letters" src="/images/yapic-letters.png" alt="yapic-logo" /></a>
+      <a href="/home/{{user._id}}">
+      <div class="yapic__logo">
+        <img class="yapic-letters" src="/images/yapic-letters.png" alt="yapic-logo" />
+      </div>
+      </a>
       <a href="/home/{{user._id}}"></a>
     </div>
     <div class="post-button">
@@ -38,12 +42,12 @@
     {{else}}
     <div class="logo-home">
       <a href="/">
-        <img class="yapic-letters" src="/images/yapic-letters.png" alt="yapic-letters" />
+        <div class="yapic__logo"><img class="yapic-letters" src="/images/yapic-letters.png" alt="yapic-letters" /></div>
       </a>
     </div>
     <div class="nav-buttons">
       <div class="login">
-        <a href="/login">LOGIN</a>
+        <a href="/login">LOG IN</a>
       </div>
       {{/if}}
   </nav>
