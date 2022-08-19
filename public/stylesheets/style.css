@@ -108,16 +108,15 @@ nav {
   padding: 0.5em 1.5em;
 }
 
-.post-button > * {
+.post-button {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: var(--yellow);
-  color: var(--dark-blue);
-  border-radius: 2rem;
+  border-radius: 0.5em;
   padding: 1rem;
-  margin-right: 12rem;
+}
+
+.post-button > a {
+  color: var(--dark-blue);
 }
 
 .nav-buttons {
@@ -386,9 +385,10 @@ select:focus {
 .single-card {
   min-height: 30em;
   background-color: var(--dark-blue);
+
   border-radius: 1em;
+  
   transition: 0.6s ease;
-  box-shadow: 0.3em 0.3em 0.7em rgba(100, 100, 100, 0.5);
 }
 
 .single-card:hover {
@@ -643,5 +643,3 @@ footer .fa-icons {
 .hr-post {
   border-top: 1px solid black;
 }
-
-/* MEDIA QUERY Mobile */
