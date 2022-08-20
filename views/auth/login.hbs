@@ -1,4 +1,4 @@
-<div class="loginParent">
+<div class="login__parent">
   <div class="login-container">
     <h1>Hi again!</h1>
     <h4>You've been missed!</h4>
@@ -26,14 +26,35 @@
           placeholder="********"
         />
       </div>
-      
-      <div>
-        <button class="btn loginBtn" type="submit">Login</button>
-      </div>
+
+      <button class="loginBtn" type="submit">Login</button>
     </form>
     <span>Don't have an account? <a href="/signup">Register</a></span>
     {{#if errorMessage}}
       <p class="alert alert-danger"><b>{{errorMessage}}</b></p>
     {{/if}}
   </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__text">
+      <p><small>&copy; Copyright 2022 PELOTUDOS Labs</small></p>
+    </div>
+    <div class="fa-icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+</footer>
+
+<div class="index__waves">
+  <img src="./images/waves.svg" alt="waves image over footer">
+</div>
+
+<div class="index__waves2">
+  <img src="./images/waves2.svg" alt="waves image over footer">
+</div>
+
+<div class="index__waves3">
+  <img src="./images/waves3.svg" alt="waves image over footer">
 </div>
