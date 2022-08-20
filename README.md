@@ -1,6 +1,8 @@
-<img src="./public/images/splash.png">
+<p align="center">
+<img width="70%" src="./public/images/splash.png">
+</p>
 
-## yapic
+<h1 align="center">yapic</h1>
 
 **yapic** is a photo-sharing community which helps users connect based on the type of photos they upload (tags) and their similar interests (shortlist). When users start to upload photos and create a collection, the app will match them with potential new friends based on their common likes. They will have the possibility to see their user match profiles and get in touch through a form (sender username and email is shared in submit).
 
