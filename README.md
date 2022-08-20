@@ -78,15 +78,12 @@ date: Date
 </a>
 
 ### Contributor
-
-Alberte Vieites  
-
 <div style="display: flex; gap: 0.5rem">
-<a href="https://www.linkedin.com/in/albertevieites/">
-  <img height="30" src="./public/images/linkedin.png"/>
+<a href="https://github.com/albertevieites">
+  <img height="30" src="https://avatars.githubusercontent.com/u/73227233?v=4"/>
 </a>
 
-<a href="https://github.com/albertevieites">
-  <img height="30" src="./public/images/linkedin.png"/>
+<a href="https://github.com/pablodellacassa">
+  <img height="30" src="https://avatars.githubusercontent.com/u/52871180?v=4"/>
 </a>
 </div>
