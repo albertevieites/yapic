@@ -1,5 +1,6 @@
-# **yapic**
-## POSTS PHOTOS & MEETING PEOPLE
+<img src="./public/images/splash.png">
+
+## yapic
 
 ## Description
 
