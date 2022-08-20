@@ -204,13 +204,18 @@ nav {
 /* <----------------------------------> */
 
 /* LOGIN.hbs PAGE */
+.login__parent {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
 .login-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 70vh;
+
   gap: var(--small-gap);
 }
 
@@ -223,8 +228,17 @@ nav {
 }
 
 .loginBtn {
+  padding: 0.375em 0.75em;
   background-color: var(--ligth-pink);
+  color: var(--dark-blue);
+  border: none;
+  border-radius: 0.25em;
 }
+
+.loginBtn:hover {
+  color: var(--white);
+}
+
 /* END OF LOGIN.hbs                     */
 /* <----------------------------------> */
 
@@ -247,7 +261,15 @@ nav {
 }
 
 .signupBtn {
+  padding: 0.375em 0.75em;
   background-color: var(--ligth-pink);
+  color: var(--dark-blue);
+  border: none;
+  border-radius: 0.25em;
+}
+
+.signupBtn:hover {
+  color: var(--white);
 }
 /* END OF SIGNUP.hbs                     */
 /* <----------------------------------> */
