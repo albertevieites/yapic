@@ -112,6 +112,11 @@ nav {
   background-color: var(--yellow);
   border-radius: 0.25em;
   padding: 1rem;
+
+  font-size: 1.9rem;
+  font-weight: 600;
+
+  border: none;
 }
 
 .post__button:hover {
@@ -326,17 +331,7 @@ nav {
   margin-top: 2rem;
 }
 
-.post__button {
-  padding: 0.375em 0.75em;
-  background-color: var(--ligth-pink);
-  color: var(--dark-blue);
-  border: none;
-  border-radius: 0.25em;
-}
 
-.post__button:hover {
-  color: var(--white);
-}
 
 .inp {
   text-align: center;
