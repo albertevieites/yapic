@@ -551,13 +551,15 @@ select:focus {
   display: grid;
   grid-template-rows: min-content;
   justify-items: center;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
 
 .match-card img {
-  height: 15rem;
+  width: 70%;
+  min-width: 6.25em;
+  margin: 0 auto;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -625,7 +627,7 @@ select:focus {
 
 .match-div p {
   font-size: 1.6rem;
-  font-weight: 150;
+  font-weight: 200;
 }
 
 .messageBtn {
