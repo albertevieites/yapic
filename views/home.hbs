@@ -1,22 +1,20 @@
-<div class="title-cards">
+<div class="home__title">
   <h1>{{user.username}}'s Board</h1>
 </div>
 
-<div class="post-cards">
+<div class="home__grid">
   {{#each user.posts}}
-    <div class="single-card">
-      <img class="post-img {{_id}}" src="{{postPhotoUrl}}" alt="{{title}}" />
-      <div class="card-content">
-        <div class="text-cards">
-          <h4>{{title}}</h4>
-          <div class="card__description">
-            <p class="post-description">{{description}}</p>
-          </div>
-        </div>
-          <div class="div-tags">
-        {{#each tags}}
-            <span class="span-tags"><p>{{this}}</p></span>
-        {{/each}}
+    <div class="home__card stacked featured">
+      <img class="home__card-img post-img {{_id}}" src="{{postPhotoUrl}}" alt="{{title}}" />
+      <div class="home__card-content">
+          <h4 class="home__card-title">{{title}}</h4>
+          <p class="home__card-description">{{description}}</p>
+          <div class="home__card-tags">
+          {{#each tags}}
+            <span class="span-tags">
+              <p>{{this}}</p>
+            </span>
+          {{/each}}
           </div>
         <form action="/post/delete/{{_id}}" method="POST">
           <button class="btn btn-delete" type="submit">
