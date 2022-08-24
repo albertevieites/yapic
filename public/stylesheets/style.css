@@ -480,6 +480,10 @@ select:focus {
   align-self: end;
 }
 
+.home__card-content h4 {
+  margin: 0;
+}
+
 .home__card-title {
   font-size: 2.3rem;
   font-weight: 800;
@@ -532,7 +536,7 @@ select:focus {
   align-items: center;
   grid-auto-columns: 21%;
 
-  padding: 3rem 1rem 6rem 0;
+  padding: 2rem 2rem 4rem 2rem;
 
   overflow-x: auto;
   overscroll-behavior-inline: contain;
@@ -551,7 +555,7 @@ select:focus {
   display: grid;
   grid-template-rows: min-content;
   justify-items: center;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 50%;
   margin-bottom: 2rem;
 }
@@ -566,7 +570,7 @@ select:focus {
 
 .match-card p {
   text-align: center;
-  margin-top: 1rem;
+  margin: 2rem;
 }
 
 /*DELETE BUTTON FOR POSTS */
