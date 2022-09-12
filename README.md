@@ -74,8 +74,8 @@ date: Date
 ## Links
 
 ### Deployment
-<a href="https://yapic.herokuapp.com/">
-  <img height="30" src="./public/images/heroku.svg"/>
+<a href="https://yapic.cyclic.app/">
+  <img height="30" src="./public/images/cyclic-sh.png"/>
 </a>
 
 ### Contributors
