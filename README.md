@@ -75,7 +75,7 @@ date: Date
 
 ### Deployment
 <a href="https://yapic.cyclic.app/">
-  <img height="30" src="./public/images/cyclic-sh.png"/>
+  <img height="50" src="./public/images/cyclic-sh.png"/>
 </a>
 
 ### Contributors
