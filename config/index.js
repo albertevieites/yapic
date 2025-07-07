@@ -33,7 +33,7 @@ module.exports = (app) => {
   app.use(cookieParser());
 
   // Normalizes the path to the views folder
-  app.set("views", path.join(__dirname, "..", "views")); 
+  app.set("views", path.join(__dirname, "..", "views"));
   // Sets the view engine to handlebars
   app.set("view engine", "hbs");
   // Handles access to the public folder
@@ -44,12 +44,18 @@ module.exports = (app) => {
     favicon(path.join(__dirname, "..", "public", "images", "yapic-logo.ico"))
   );
 
-  app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')));
-  app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
+  app.use(
+    "/css",
+    express.static(path.join(__dirname, "node_modules/bootstrap/dist/css"))
+  );
+  app.use(
+    "/js",
+    express.static(path.join(__dirname, "node_modules/bootstrap/dist/js"))
+  );
 
   app.use(
     session({
-      secret: "PizzaBytes",
+      secret: process.env.SESSION_SECRET || "your-super-secret-key-here",
       resave: true,
       saveUninitialized: true,
       cookie: {
