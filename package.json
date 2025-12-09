@@ -36,6 +36,9 @@
     "nodemon": "^3.1.11"
   },
   "overrides": {
-    "body-parser": "^2.2.1"
+    "body-parser": "^2.2.1",
+    "multer-storage-cloudinary": {
+      "cloudinary": "^2.0.0"
+    }
   }
 }
