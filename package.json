@@ -39,6 +39,7 @@
     "body-parser": "^2.2.1",
     "multer-storage-cloudinary": {
       "cloudinary": "^2.0.0"
-    }
+    },
+    "qs": "^6.14.1"
   }
 }
