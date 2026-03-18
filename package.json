@@ -1,6 +1,6 @@
 {
   "name": "yapic",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "seedUsers": "node ./seeds/users.seed.js",
@@ -21,13 +21,13 @@
     "css": "^3.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "express-rate-limit": "^8.2.1",
+    "express-rate-limit": "^8.3.1",
     "express-session": "^1.18.2",
     "hbs": "^4.2.0",
     "helmet": "^8.1.0",
-    "mongoose": "^8.20.2",
+    "mongoose": "^8.23.0",
     "morgan": "^1.10.1",
-    "multer": "^2.0.2",
+    "multer": "^2.1.1",
     "multer-storage-cloudinary": "^4.0.0",
     "semver": "^7.7.3",
     "serve-favicon": "^2.5.1"
@@ -38,8 +38,10 @@
   "overrides": {
     "body-parser": "^2.2.1",
     "multer-storage-cloudinary": {
-      "cloudinary": "^2.0.0"
+      "cloudinary": "^2.9.0"
     },
-    "qs": "^6.14.1"
+    "qs": "^6.15.0",
+    "lodash": "^4.17.23",
+    "minimatch": "^10.2.4"
   }
 }
