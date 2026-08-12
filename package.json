@@ -21,11 +21,11 @@
     "css": "^3.0.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "express-rate-limit": "^8.5.2",
+    "express-rate-limit": "^8.6.2",
     "express-session": "^1.19.0",
     "hbs": "^4.2.1",
-    "helmet": "^8.2.0",
-    "mongoose": "^9.7.3",
+    "helmet": "^8.3.0",
+    "mongoose": "^9.9.2",
     "morgan": "^1.11.0",
     "multer": "^2.2.0",
     "multer-storage-cloudinary": "^4.0.0",
@@ -36,15 +36,10 @@
     "nodemon": "^3.1.14"
   },
   "overrides": {
-    "body-parser": "^2.3.0",
     "multer-storage-cloudinary": {
       "cloudinary": "^2.10.0"
     },
-    "qs": "^6.15.3",
-    "lodash": "^4.18.1",
-    "minimatch": "^10.2.5",
-    "handlebars": "^4.7.9",
-    "picomatch": "^4.0.4",
-    "ip-address": "^10.2.0"
+    "ip-address": "^10.5.0",
+    "brace-expansion": "^5.0.9"
   }
 }
